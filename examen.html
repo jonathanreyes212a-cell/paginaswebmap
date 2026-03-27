@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen Práctico: Catálogo de Hardware 2024</title>
+    <style>
+        body {
+            background: #fff;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+        }
+
+        .titulo-principal {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .tabla-productos {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .img-producto {
+            border: 2px dashed #2c3e50;
+            border-radius: 5px;
+        }
+
+        .texto-alerta {
+            color: red;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 class="titulo-principal">Inventario de Componentes Avanzados</h1>
+
+<h2>Sección: Procesadores y Memoria</h2>
+
+<table class="tabla-productos">
+    <thead>
+        <tr style="background-color: #2c3e50; color: white;">
+            <th>Vista previa</th>
+            <th>Descripción del Producto</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td align="center">
+                <img src="cpu-quantum.jpg" class="img-producto" width="100">
+            </td>
+            <td>
+                <h3>Procesador Quantum X1</h3>
+                <p>Arquitectura de 128 núcleos con refrigeración líquida integrada.</p>
+            </td>
+            <td>Procesador</td>
+            <td>$2,450.00</td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="memoria.jpg" class="img-producto" width="100">
+            </td>
+            <td>
+                <h3>Memoria RAM DDR5 64GB</h3>
+                <p class="texto-alerta">Últimas unidades disponibles en bodega</p>
+            </td>
+            <td>Memoria</td>
+            <td>$320.00</td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <img src="tarjeta_grafica.jpg" class="img-producto" width="100">
+            </td>
+            <td>
+                <h3>GPU 4090 Ti</h3>
+                <p>Potencia extrema para gaming y renderizado profesional.</p>
+            </td>
+            <td>Gráfica</td>
+            <td>$850.00</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
